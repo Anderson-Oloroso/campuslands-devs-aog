@@ -14,7 +14,7 @@
 - Ejecutando git log
 ![log](log.png)
 
-- Crecacion del archivo md
+- Creacion del archivo md
 
 ![md](md.png)
 
