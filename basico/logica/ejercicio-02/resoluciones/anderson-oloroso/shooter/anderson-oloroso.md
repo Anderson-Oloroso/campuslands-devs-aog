@@ -1,4 +1,20 @@
+# Inventario Táctico Shooter - Ejericicio - 02
+## Henrik Anderson Oloroso García
 
+``` html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shooter</title>
+</head>
+<body>
+    <script src="script.js"></script>
+</body>
+</html>
+```
+``` js
 const armas = [
     { nombre: "Rifle de Asalto", tipo: "Rifle", municion: 35, rareza: "Común" },
     { nombre: "Pistola de Mano", tipo: "Pistola", municion: 15, rareza: "Rara" },
@@ -26,6 +42,8 @@ else {
         console.log(`- ${arma.nombre} (${arma.tipo}): ${arma.municion} balas, ${arma.rareza}`);
     });
 }
+```
 
-
-
+_Explicacion:_ En base a las especificaciones, creee el arreglo con todos los datos necesarios, los filtre por balas
+y las clasifique acorde a su rareza y asi mostre las armas recomendadas como las posibles mejores opciones,
+use arreglo, filter y map
